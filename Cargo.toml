@@ -1,0 +1,15 @@
+[package]
+publish = false
+version = "1.0.0"
+edition = "2018"
+name = "guessing_game"
+description = "A little gessing game."
+categories = ["game", "terminal"]
+authors = ["Nicolas Talle <dev@nicolab.net>"]
+homepage = "https://github.com/Nicolab/rust-guess-game"
+repository = "https://github.com/Nicolab/rust-guess-game"
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]
+rand = "0.7.2"
